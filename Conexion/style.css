@@ -1,0 +1,118 @@
+/* Estilos para la navegación */
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    color: #003d80;
+}
+
+
+/* Estilos para los enlaces y botones */
+
+.right-nav {
+    float: right;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #003d80;
+}
+
+
+/* Estilos generales */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+/* Estilos para la parte superior */
+
+.top-container {
+    background-color: #0074d9;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+/* Estilos para la sección de "¿Qué es MindMatch?" */
+
+.section {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 28px;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.section-info {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.section-info p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.section-info ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.section-info ul li {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+
+/* Estilos para el footer */
+
+footer {
+    background-color: #0056b3;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
